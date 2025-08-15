@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Form</title>
+        <style>
+            body{
+                background-color: palegoldenrod;
+            }
+            h2{
+                text-align: center;
+                font-size: 50px;
+            }
+            section, h3{
+                font-size: 25px;
+                font-weight: 800;
+                text-align: center;
+            }
+            form{
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section><br>
+                <h2>Place Your Order</h2><br><hr>
+                <br><h3>Select the items and amount which you would like to order</h3>
+            </section><br><br>
+            <form>
+
+                Biriyani: <input type="number" min="0" max="5"><br><br>
+                Add Ons:
+                <label><input type="checkbox">Extra ghee</label>
+                <label><input type="checkbox">Raisins</label>
+                <label><input type="checkbox">Chicken Piece x2</label>
+                <label><input type="checkbox">None</label>
+                <br><br>
+
+                Masala Dosa: <input type="number" min="0" max="5"><br><br>
+                Add Ons:
+                <label><input type="checkbox">Extra Ghee</label>
+                <label><input type="checkbox">Extra Chutney</label>
+                <label><input type="checkbox">Extra Sambhar</label>
+                <label><input type="checkbox">Extra fillings</label>
+                <label><input type="checkbox">None</label>
+                <br><br>
+
+                Puri Bhaaji: <input type="number" min="0" max="5"><br><br>
+                Add Ons:
+                <label><input type="checkbox">Extra ghee</label>
+                <label><input type="checkbox">Extra Puri</label>
+                <label><input type="checkbox">Extra Bhaaji</label>
+                <label><input type="checkbox">None</label>
+                <br><br>
+
+                <br>
+                Please specify special request, if any :
+                <br>
+                <textarea rows="8" cols="50" placeholder="(e.g. Seperate Packaging for individual food)"></textarea><br><br>
+                Would you like to purchase a Carry bag instead of brown cover? <br>
+                <input type="radio" name="option">Yes
+                <input type="radio" name="option">No
+                <br><br>
+
+                <input type="submit" value="Go To Checkout"><br><br><br>
+                <br><br>
+            </form>
+        </main>
+    </body>
+</html>
