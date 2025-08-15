@@ -1,8 +1,14 @@
-├── RestaurantProject.html   # Home page with restaurant title & navigation
-├── menu.html                # Menu page with food items and descriptions
-├── order-form.html          # Order form for selecting dishes & add-ons
-├── background.jpeg          # Blurred background image for homepage
-├── biriyani.jpeg             # Image for Biriyani dish
-├── masala-dosa.jpeg          # Image for Masala Dosa dish
-├── puri.jpeg                 # Image for Puri Bhaaji dish
-├── The indian cuisine.jpeg   # Restaurant banner image
+The Indian Cuisine is a simple static HTML project that showcases a restaurant menu and an order form.
+It’s designed to practice basic HTML & CSS skills such as:
+
+  Structuring web pages with HTML5 tags
+
+  Styling with internal CSS
+
+  Linking multiple HTML pages
+
+  Displaying and formatting images
+
+  Creating interactive form elements
+
+
