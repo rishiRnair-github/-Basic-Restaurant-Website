@@ -28,7 +28,8 @@
             </section><br><br>
             <form>
 
-                Biriyani: <input type="number" min="0" max="5"><br><br>
+                <label for="biriyani">Biriyani:</label>
+                <input type="number" id="biriyani" name="biriyani" min="0" max="5"><br><br>
                 Add Ons:
                 <label><input type="checkbox">Extra ghee</label>
                 <label><input type="checkbox">Raisins</label>
@@ -36,7 +37,8 @@
                 <label><input type="checkbox">None</label>
                 <br><br>
 
-                Masala Dosa: <input type="number" min="0" max="5"><br><br>
+                <label for="dosa">Masala Dosa:</label>
+                <input type="number" id="dosa" name="dosa" min="0" max="5"><br><br>
                 Add Ons:
                 <label><input type="checkbox">Extra Ghee</label>
                 <label><input type="checkbox">Extra Chutney</label>
@@ -45,7 +47,8 @@
                 <label><input type="checkbox">None</label>
                 <br><br>
 
-                Puri Bhaaji: <input type="number" min="0" max="5"><br><br>
+                <label for="puri">Puri Bhaaji:</label>
+                <input type="number" id="puri" name="puri" min="0" max="5"><br><br>
                 Add Ons:
                 <label><input type="checkbox">Extra ghee</label>
                 <label><input type="checkbox">Extra Puri</label>
@@ -53,18 +56,18 @@
                 <label><input type="checkbox">None</label>
                 <br><br>
 
-                <br>
-                Please specify special request, if any :
-                <br>
-                <textarea rows="8" cols="50" placeholder="(e.g. Seperate Packaging for individual food)"></textarea><br><br>
+                <label for="special">Please specify special request, if any:</label><br>
+                <textarea id="special" name="special" rows="8" cols="50" placeholder="(e.g. Seperate Packaging for individual food)"></textarea><br><br>
+
                 Would you like to purchase a Carry bag instead of brown cover? <br>
-                <input type="radio" name="option">Yes
-                <input type="radio" name="option">No
+                <input type="radio" name="option" id="carry_yes"><label for="carry_yes">Yes</label>
+                <input type="radio" name="option" id="carry_no"><label for="carry_no">No</label>
                 <br><br>
 
                 <input type="submit" value="Go To Checkout"><br><br><br>
-                <br><br>
             </form>
+            
         </main>
     </body>
+
 </html>
